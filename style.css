@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.yoga-feature {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+
+.card-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Две карточки в строке */
+  gap: 20px; /* Отступы между карточками */
+}
+
+.card {
+  background: #fdfdfd;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.card h2 {
+  margin: 15px 0 10px;
+  font-size: 1.4em;
+  color: #333;
+}
+
+.card p {
+  font-size: 0.95em;
+  line-height: 1.5;
+  color: #666;
+}
+
+.card span {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #007bff;
+}
+.f {
+    width: 50px;
+    height: 50px;
+}
